@@ -41,7 +41,7 @@ export default function HistoryDetail() {
     );
   }
 
-  if (error) {
+  if (error) { 
     return (
       <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
         <Navbar />
